@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: -webkit-linear-gradient(90deg, #0b598d,#a0c1d5,#ddd1b9);
+    background: linear-gradient(90deg, #0b598d,#a0c1d5,#ddd1b9);
+    font-family: "Teko", sans-serif;
+    text-shadow: 0.75px 0.75px #0b598d5d ;
+}
+
+header, main, footer{
+    width: 100%;
+    padding: 0 130px;
+}
+
+.container{
+    background-color:  #99c6e249;
+    padding: 25px 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 6px 7px #a0c1d500;
+}
+
+header.title{
+    font-size: 20px;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    margin-bottom: 10px;
+
+}
+
+header.subtitle{
+    font-size: 25px;
+
+}
+
+header{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.card{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
+
+.card-img{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 4px;
+    height: 170px;
+}
+
+.card-title{
+    font-size: 28px;
+    
+}
+
+.card-price{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-button{
+    border: 4px solid black;
+    width: fit-content;
+    padding: 5px 5px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.473);
+    padding-right: 25px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.card-button::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("img/icon/cart.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    vertical-align: middle;
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+    rotate: 10;
+}
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+main{
+    font-size: large;
+    margin-bottom: 20px;
+
+}
+
+.author{
+    font-size: 20px;
+
+}
+
+.card2{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
+
+.card3{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
+
+.card4{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
+
+.card5{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
+
+.card6{
+    width: 150px;
+    height: 360px;
+    background-color: #99c6e249;
+    border-radius: 10px;
+    
+}
